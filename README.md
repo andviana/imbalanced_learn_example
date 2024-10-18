@@ -17,13 +17,13 @@ Neste exemplo serão mostradas técnicas para análise e balanceamento de conjun
 
 ### Passo 1
 Primeiramente, faça o download do projeto:
-```
+```bash
 git clone https://github.com/andviana/imbalanced_learn_example.git
 ```
 
 ### Passo 2
 Agora, entre na pasta do projeto e abra a sua IDE (os comandos abaixo abrirão o Visual Studio Code na pasta raiz do projeto)
-```
+```bash
 cd imbalanced_learn_example
 code .
 ```
@@ -31,23 +31,22 @@ code .
 ### Passo 3 (opcional)
 Se precisar criar um ambiente virtual, no terminal, execute os comandos:
 > *a criação do venv é um passo necessário no **Ubuntu 24**, bem como em outras distros linux*
-```
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 Para desativar o ambiente virtual (venv), use o comando abaixo:
 > *não execute esse comando agora, pois caso seja o venv seja desativado, problemas podem ocorrer ao tentar instalar as dependências do projeto com o* ```pip```
-```
+```bash
 deactivate
 ```
 
 ### Passo 4
 No terminal do seu IDE, execute a instalação do [Pandas](https://pandas.pydata.org/docs/user_guide/index.html), [Matplotlib](https://matplotlib.org/) e [Imbalanced-learn](https://imbalanced-learn.org/stable/index.html) conforme comandos abaixo:
-```
+```bash
 pip install pandas
 pip install matplotlib
 pip install -U imbalanced-learn
-
 ```
 
 ## Códigos do Exemplo
